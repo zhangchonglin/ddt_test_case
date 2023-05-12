@@ -2,6 +2,7 @@
 DDT offline test case from NERSC documentation
 
 Note:
+- NERSC documentation is here: https://docs.nersc.gov/tools/debug/ddt/#offline-debugging;
 - `submit_1node_np=4.sh` use 4 MPI ranks and 1 node, working fine;
 - `submit_2nodes_np=8.sh` use 8 MPI ranks and 2 nodes, does not work with following `srun` error:
 ```
